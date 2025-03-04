@@ -1,0 +1,37 @@
+git clone https://github.com/your-username/parking-management-system.git
+cd parking-management-system
+
+git add .
+git commit -m "Initial commit: Added backend and frontend code"
+git push origin main
+
+parking-management-system/
+├── backend/
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── employeeController.js
+│   │   └── auditLogController.js
+│   ├── models/
+│   │   ├── employeeModel.js
+│   │   └── auditLogModel.js
+│   ├── routes/
+│   │   ├── employeeRoutes.js
+│   │   └── auditLogRoutes.js
+│   ├── .env
+│   ├── server.js
+│   └── package.json
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Navbar.js
+│   │   │   ├── EmployeeList.js
+│   │   │   ├── AddEmployee.js
+│   │   │   └── AuditLog.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── index.css
+│   ├── package.json
+│   └── README.md
+└── README.md
