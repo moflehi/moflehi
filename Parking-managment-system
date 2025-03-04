@@ -35,3 +35,9 @@ parking-management-system/
 │   ├── package.json
 │   └── README.md
 └── README.md
+
+cd parking-management-backend
+node server.js
+
+cd parking-management-frontend
+npm start
